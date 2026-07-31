@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="uma_arm">
+
+    <!-- Include robot_core.xacro -->
+    <xacro:include filename="robot_core.xacro" />
+
+    <!-- include gazebo xacro file -->
+    <!-- <xacro:include filename="uma_arm_gazebo.xacro" /> -->
+
+    <!-- Include ros2_control.xacro -->
+    <xacro:include filename="ros2_control.xacro" />
+
+</robot>
